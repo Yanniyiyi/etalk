@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:minWidth="350dp"
+    android:minHeight="280dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="请输入你对老师的评价"
+        android:scrollbars="vertical"
+        android:gravity="top|left"
+        android:singleLine="false"
+        android:inputType="textMultiLine"
+        android:id="@+id/comment_input"
+        android:textColorHint="#cccccc"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/teacher_score"
+            android:text="请为老师打分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="0.0"
+            style="@style/ratingBar"
+            android:layout_toRightOf="@+id/teacher_score" />
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/submit_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="提交"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/comment_button_style" />
+
+
+</LinearLayout>

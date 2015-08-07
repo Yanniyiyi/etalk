@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yanni.etalk.Fragments.SelectBookDateFragment"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mcv_showOtherDates="false"
+        app:mcv_arrowColor="#ff0000"
+        app:mcv_selectionColor="#ff0000"
+        app:mcv_dateTextAppearance="@style/calendarTextTheme" />
+
+</LinearLayout>

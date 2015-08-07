@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yanni.etalk" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Activities.UserProfileActivity"
+            android:label="@string/title_activity_user_profile" />
+        <activity
+            android:name=".Activities.MyBookActivity"
+            android:label="@string/title_activity_my_book" />
+        <activity
+            android:name=".Activities.MyCommentActivity"
+            android:label="@string/title_activity_my_comment" />
+        <activity
+            android:name=".Activities.MyPackageActivity"
+            android:label="@string/title_activity_my_package" />
+        <activity
+            android:name=".Activities.MyRecordActivity"
+            android:label="@string/title_activity_my_record" />
+        <activity
+            android:name=".Activities.BookClassActivity"
+            android:label="@string/title_activity_book_class" />
+        <activity
+            android:name=".Activities.IntroActivity"
+            android:label="@string/title_activity_intro" >
+        </activity>
+        <activity android:name=".PlaybackOverlayActivity" />
+        <activity android:name=".BrowseErrorActivity" />
+        <activity
+            android:name=".Activities.IntrodActivity"
+            android:label="@string/title_activity_introd" >
+        </activity>
+    </application>
+
+</manifest>

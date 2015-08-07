@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yanni.etalk.Fragments.MyBookFragment"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/booked_course_toolbar" />
+    <com.yanni.etalk.Views.RecyclerViewEmptySupport
+        android:id="@+id/book_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+    </com.yanni.etalk.Views.RecyclerViewEmptySupport>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty_view">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp" />
+        <Button
+            android:id="@+id/go_to_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去预定课程"/>
+        <include layout="@layout/fragment_after_login_footer" />
+    </LinearLayout>
+
+</LinearLayout>

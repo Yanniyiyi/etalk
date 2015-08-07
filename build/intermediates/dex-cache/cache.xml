@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-0686d83629c9ba51f1a75d6895552bcfe6b4f42d.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-f2c7b6159599162492057e4f9f72aa836e93d7d8.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-90ded6c97874035a4f9150f47cc3ba396414dbc5.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/com.android.support/percent/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="928b73afabcd116944e9487771d4121168eac1a4">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-8512bbd1a4d12cc657a27750fb2c605f7eb65fcb.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-c81d5f311778584966df8f36b10c595a8b85b0be.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d9c70ff9fb4c0b763668ed0527f919495044173f">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/volley-e620c42b5e7bdab236da1cee005f751bb46aa707.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/com.prolificinteractive/material-calendarview/0.7.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="119ecc3da24fea49a2da4baf1377e5f326a89d62">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-e8e8ff887379e80306f7470950672eb7e24df511.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/org.solovyev.android.views/linear-layout-manager/0.4/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="594eab441ab5cac8007ab3fd49a24338f415b83f">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-3cfb07096668599f0c60647e609e332d6181237f.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/cc.cloudist.acplibrary/library/1.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d552d4ef38b67a9fef70d917bb5c79b3aed7fb9f">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/classes-cc95c6642d14745494f6099bcbf1a9bc6e4e561b.jar" />
+    </item>
+    <item
+        jar="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/macbookretina/Documents/Monash/semester-3/FIT4039 - ANDROID-AND-IOS/YI-YANG-25011618-3.zip Folder/Etalk/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-84e6e6bd666d67d2849d2c249f0aeb6532f5ad1a.jar" />
+    </item>
+
+</items>

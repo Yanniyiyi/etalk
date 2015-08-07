@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_cancel_course_confirm" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/confirm_cancel_course"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="是"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/yes_button_style"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:background="@drawable/no_button_style"
+            android:layout_alignParentRight="true"
+            android:id="@+id/close_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="否"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

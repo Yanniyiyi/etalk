@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yanni.etalk.Fragments.LoginFragment"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.21"
+        android:background="#9BCB2D">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_login_header_logo"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.71">
+
+        <include layout="@layout/curve_btm_border" />
+
+        <EditText
+            android:id="@+id/loginUserNameEdittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="请输入用户名"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@mipmap/ic_user_name"
+            android:background="@drawable/edittext_with_border_style" />
+
+        <EditText
+            android:id="@+id/loginPasswordEdittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="请输入密码"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:drawableLeft="@mipmap/ic_password"
+            android:drawablePadding="5dp"
+            android:background="@drawable/edittext_with_border_style" />
+
+        <TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="忘记密码"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="22dp"
+            android:layout_gravity="right"
+            android:textColor="#8BC423" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/registerbutton_style"
+            android:text="登陆"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#8BC423"
+        android:layout_weight="0.08">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_to_main_page"
+            android:background="@mipmap/ic_home"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="4008-451-365"
+            android:textColor="#ffffff"
+            android:id="@+id/loginPagePhoneNumber"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:text="\@2015深圳易课文化科技有限公司"
+            android:textColor="#ffffff"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/loginPagePhoneNumber"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

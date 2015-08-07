@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yanni.etalk.Fragments.UserProfileFragment"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:textColor="#FF6600"
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:textColor="#378011"
+            android:textSize="16sp"
+            android:id="@+id/profileNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/profileName" />
+
+        <TextView
+            android:textColor="#378011"
+            android:textSize="16sp"
+            android:id="@+id/profileScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/profileNo" />
+
+        <TextView
+            android:textColor="#378011"
+            android:textSize="16sp"
+            android:id="@+id/profileLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/profileScore" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/profileIcon"
+            android:background="@mipmap/ic_user_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/changePassword"
+            android:text="修改密码"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/ic_forward"
+            android:background="#ffffff"
+            android:layout_marginRight="5dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="1dp"
+            android:background="#eee" />
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/changePhoneNum"
+            android:text="修改手机号码"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/ic_forward"
+            android:background="#ffffff"
+            android:layout_marginRight="5dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="1dp"
+            android:background="#eee" />
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/changeQQ"
+            android:text="修改QQ号码"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/ic_forward"
+            android:background="#ffffff"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/logout"
+            android:text="退出当前账号"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
+

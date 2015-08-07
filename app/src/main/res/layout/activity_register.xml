@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yanni.etalk.Activities.RegisterActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#EEEEEE">
+
+        <EditText
+            android:id="@+id/registerUserName"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="用户名（必填）"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:background="@drawable/edittext_style" />
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="密码（6-16位字母+数字组合必填）"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:background="@drawable/edittext_style" />
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="请输入您的邮箱（必填）"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:background="@drawable/edittext_style" />
+
+        <EditText
+            android:id="@+id/registerPhoneNum"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="请输入您的手机号码（必填）"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:background="@drawable/edittext_style" />
+
+        <EditText
+            android:id="@+id/registerInviteCode"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="推荐人代码（可领取三节免费课-选填）"
+            android:textColorHint="#999999"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:background="@drawable/edittext_style" />
+
+
+        <Button
+            android:id="@+id/confirmRegisterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="15sp"
+            android:background="@drawable/registerbutton_style"
+            android:text="注册" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
